@@ -46,7 +46,7 @@ function cacheBustTask() {
     var cbString = new Date().getTime();
     return src(['app/index.html'])
         .pipe(replace(/cb=\d+/g, 'cb=' + cbString))
-        .pipe(dest('.'));
+        .pipe(dest('app'));
 }
 
 // Watch task: watch SCSS and JS files for changes
