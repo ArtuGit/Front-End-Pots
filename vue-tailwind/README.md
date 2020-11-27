@@ -1,4 +1,4 @@
-# Vue.js 3 and TailwindCSS 2.
+# Vue.js 3 and TailwindCSS 2
 
 ## Deploy to GitHub Pages
 ```
